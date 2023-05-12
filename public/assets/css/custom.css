@@ -1,0 +1,86 @@
+.partner-logo {
+    background-image: url('../images/logos/partner-logo.svg') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: 75% !important;
+}
+
+.lh-2 {
+    line-height: 2;
+}
+
+.lh-3 {
+    line-height: 3;
+}
+
+#home-banner {
+    min-height: 500px;
+}
+
+.lang-switcher ul {
+    min-width: 150px !important;
+}
+
+.bg-theme {
+    background: #031F42;
+}
+
+.header-user {
+    white-space: nowrap;
+    height: unset;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.profile-dropdown a:hover {
+    color: black;
+}
+
+.c-primary {
+    color: var(--theme-primary-color);
+}
+
+.lh-13 {
+    line-height: 1.3rem !important;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.spacer-50 {
+    margin-top: 50px;
+}
+
+.spacer-100 {
+    margin-top: 100px;
+}
+
+.img-square {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.lh-18 {
+    line-height: 1.8;
+}
+
+.fs-13 {
+  font-size: 13px !important;
+}
+
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.opacity-7 {
+  opacity: 0.7 !important;
+}
+
+.opacity-hover-10:hover {
+  opacity: 1 !important;
+}
+
+.iti {
+    width: 100%;
+}

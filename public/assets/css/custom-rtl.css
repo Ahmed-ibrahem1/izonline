@@ -1,0 +1,130 @@
+.subheading {
+    letter-spacing: 0px;
+    font-size: 16px;
+}
+
+.text-xl-start {
+    text-align: start !important;
+}
+
+.instructors, .cta-5, .footer, .woocommerce form.register {
+    text-align: start;
+}
+
+.list-item i {
+    float: right;
+}
+
+.list-item ,.list-unstyled, .course-sidebar-list ,.course-meterial-list, 
+.course-popular {
+    padding-inline-start: 0px;
+}
+
+.me-auto {
+    margin-inline-end: auto;
+    margin-right: unset !important;
+}
+
+.footer-logo {
+    margin-right: unset;
+}
+
+.ps-xl-5 {
+    padding-inline-start: 3rem !important;
+    padding-left: unset !important;
+}
+
+.woocommerce-form label{
+    letter-spacing: unset !important;
+    text-align: start !important;
+}
+
+.tas {
+    text-align: start !important;
+}
+
+.tar {
+    text-align: right;
+}
+
+.course-sidebar .course-widget .course-sidebar-list li span i {
+    margin-right: unset;
+    margin-inline-end: 10px;
+}
+
+.course-meterial-list li i {
+    transform: scale(-1);
+    margin-right: unset;
+    margin-inline-end: 7px;
+}
+
+.topbar-search label {
+    right: unset;
+    left: 20px;
+}
+
+.fa-angle-right {
+    transform: scale(-1);
+}
+
+.me-4 {
+    margin-right: unset !important;
+    margin-inline-end: 1.5rem !important;
+}
+
+.course-meta i {
+    margin-right: unset;
+    margin-inline-end: 5px;
+}
+
+.me-2 {
+    margin-right: unset !important;
+    margin-inline-end: 0.5rem !important;
+}
+
+.contact-info-wrapper .contact-item i {
+    margin-right: unset;
+    margin-inline-end: 15px;
+}
+
+.feature-style-left .feature-icon {
+    margin-right: unset;
+    margin-left: 30px;
+    float: right;
+}
+
+.about-features .feature-item {
+    padding-right: unset;
+    padding-left: 40px;
+}
+
+.accordion-button::after {
+    margin-left: unset;
+    margin-right: auto;
+}
+
+.form-select {
+    background-position: left 0.75rem center;
+}
+
+.header-navbar .primary-menu li .submenu li .menu-trigger {
+    right: unset !important;
+    left: 20 !important;
+}
+
+.rounded-end {
+    border-top-right-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.rounded-end-0 {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.rounded-start {
+    border-bottom-right-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
