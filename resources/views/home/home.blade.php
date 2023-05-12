@@ -56,34 +56,6 @@
     </div>
 </section>
 
-<!--  Course category -->
-<!--<section class="category-section section-padding-top">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-xl-8">-->
-<!--                <div class="section-heading mb-70 text-center">-->
-{{-- <!--                    <span class="subheading">{{ __('home.categories-subheading') }}</span>--> --}}
-{{-- <!--                    <h2 class="font-lg">{{ __('home.categories-heading') }}</h2>--> --}}
-<!--                </div>-->   
-<!--            </div>-->
-<!--        </div>-->
-
-<!--        <div class="row">-->
-{{-- <!--            @forelse (  $categories as $category)--> --}}
-{{-- <!--            <x-home.category-item :category="$category" />--> --}}
-<!--            @empty-->
-<!--            <div class="row text-center m-3 bg-light border-dark rounded">-->
-<!--                <h3 class="p-5">-->
-{{-- <!--                    {{ __('home.no-categories') }}--> --}}
-<!--                </h3>-->
-<!--            </div>-->
-<!--            @endforelse-->
-
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--  Course category End -->
-
 <!--  Course style 1 -->
 <section class="course-wrapper section-padding">
     <section class="bg-light pt-3">
