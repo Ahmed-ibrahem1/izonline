@@ -34,7 +34,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'home'])->name('home');
 
 Route::get('lang/{locale}', [LocaleController::class, 'switchLanguage'])->name('switch_language');
-
+    
 // Sessions
 Route::group([], function () {
     Route::get('login', [SessionController::class, 'create'])->middleware('guest')->name('login');
