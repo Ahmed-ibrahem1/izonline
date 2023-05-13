@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Branch;
 use App\Models\Category;
 use App\Models\Level;
 use Illuminate\Database\Migrations\Migration;
@@ -19,6 +20,7 @@ class CreateProgramsTable extends Migration
             $table->id();
             $table->foreignIdFor(Category::class)->nullable()->default(null);
             $table->foreignIdFor(Level::class);
+            $table->foreignIdFor(Branch::class)->nullable()->default(null);
 
             $table->json('title');
             $table->json('description')->nullable();

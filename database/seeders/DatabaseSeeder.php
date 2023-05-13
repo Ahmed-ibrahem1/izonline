@@ -99,8 +99,8 @@ class DatabaseSeeder extends Seeder
         User::create([
             'role_id' => Role::firstWhere('code', Role::ADMIN_CODE)->id,
             'username' => 'admin',
-            'email' => 'admin@izonlineedu.com',
-            'password' => 'pZQKc4R)YDS3L.Gg',
+            'email' => 'admin@iz.com',
+            'password' => '123456',
             'first_name' => 'NA',
             'middle_name' => 'NA',
             'last_name' => 'NA',

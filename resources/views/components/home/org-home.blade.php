@@ -12,22 +12,30 @@
         <div class="slick-slider">
             <div class="box" style="height: unset">
                 <div class="d-block px-3 px-xl-7">
-                    <img src="{{ asset('assets/images/orgs/innov.png') }}" style="width:200px" class="opacity-7 opacity-hover-10 m-auto">
+                    <a href="{{ route('organization.show') }}?org=8">
+                        <img src="{{ asset('assets/images/orgs/innov.png') }}" style="width:200px" class="opacity-7 opacity-hover-10 m-auto">
+                    </a>
                 </div>
             </div>
             <div class="box" style="height: unset">
                 <div class="d-block px-3 px-xl-7">
-                    <img src="{{ asset('assets/images/orgs/esspresso.png') }}" style="width:100px" class="opacity-7 opacity-hover-10 m-auto">
+                    <a href="{{ route('organization.show') }}?org=10">
+                        <img src="{{ asset('assets/images/orgs/esspresso.png') }}" style="width:100px" class="opacity-7 opacity-hover-10 m-auto">
+                    </a>
                 </div>
             </div>
             <div class="box" style="height: unset">
                 <div class="d-block px-3 px-xl-7">
-                    <img src="{{ asset('assets/images/orgs/roube.png') }}" style="width:200px; margin-top:50px" class="opacity-7 opacity-hover-10">
+                    <a href="{{ route('organization.show') }}?org=9">
+                        <img src="{{ asset('assets/images/orgs/roube.png') }}" style="width:200px; margin-top:50px" class="opacity-7 opacity-hover-10">
+                    </a>
                 </div>
             </div>
             <div class="box" style="height: unset">
                 <div class="d-block px-3 px-xl-7">
-                    <img src="{{ asset('assets/images/orgs/cec.webp') }}" style="width:200px; margin-top:50px" class="opacity-7 opacity-hover-10">
+                    <a href="{{ route('organization.show') }}?org=11">
+                        <img src="{{ asset('assets/images/orgs/cec.webp') }}" style="width:200px; margin-top:50px" class="opacity-7 opacity-hover-10">
+                    </a>
                 </div>
             </div>
 

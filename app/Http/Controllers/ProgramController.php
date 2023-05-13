@@ -13,11 +13,16 @@ class ProgramController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $programs = Program::query();
 
         $programs->filter(request()->all());
+        
+        if($request->branch_id){
+            $branch = $request->branch_id;
+            $programs =  $programs->where('branch_id', $branch);
+        }
 
         return view('program.index', [
             'programs' => $programs->paginate(9),

@@ -15,7 +15,7 @@ class Organisation extends Model
 
 
     protected $translatable = [
-        'name', 'description', 'attributes'
+        'name', 'description', 'attributes',
     ];
 
     protected $guarded = [];

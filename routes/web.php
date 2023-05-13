@@ -15,6 +15,7 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\SaleController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\UserController;
+use App\Models\Organisation;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -80,6 +81,9 @@ Route::post('/email/verification-notification', function (Request $request) {
 // Programs
 Route::resource('programs', ProgramController::class)->only(['index', 'show']);
 
+// Organization
+Route::resource('organization', OrganisationController::class)->only(['index', 'show']);
+
 // Categories
 Route::resource('categories', CategoryController::class)->only(['show']);
 
@@ -129,6 +133,6 @@ Route::get('test', function () {
 });
 
 
-Route::get('/run-migrations', function () {
-    return Artisan::call('migrate', ["--force" => true ]);
-});
+// Route::get('/run-migrations', function () {
+//     return Artisan::call('migrate', ["--force" => true ]);
+// });

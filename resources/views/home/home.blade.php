@@ -27,7 +27,8 @@
 </section>
 <!-- Banner Section End -->
 
-        <x-home.org-home />
+
+ <x-home.org-home />
         
         
 <section class="category-section section-padding-top">
